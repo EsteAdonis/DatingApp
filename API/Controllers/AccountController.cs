@@ -7,7 +7,7 @@ using System.Text;
 using API.DTOs;
 using Microsoft.EntityFrameworkCore;
 using API.Interfaces;
-
+using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 {
