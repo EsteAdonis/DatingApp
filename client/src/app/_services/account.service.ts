@@ -58,6 +58,6 @@ export class AccountService {
     dataError.errorNumber = 100;
     dataError.message = error.statusText;
     dataError.friendlyMessage = 'An error occurred retrieving data.';
-    return throwError(dataError);    
+    return throwError(error);    
   }  
 }
