@@ -48,6 +48,7 @@ namespace API.Controllers
       };
     }
 
+    [AllowAnonymous]
     [HttpPost("login")]
     public async Task<ActionResult<UserDto>> login(LoginDto loginDto)
     {
